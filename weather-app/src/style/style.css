@@ -1,0 +1,30 @@
+body {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.weather-card {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px;
+}
+
+.weather-card h2 {
+    margin-top: 0;
+    color: #333;
+    text-align: center;
+}
+
+.weather-card p {
+    margin: 0.5rem 0;
+    color: #666;
+    font-size: 1.1rem;
+}
+
